@@ -1,6 +1,10 @@
 #include <Arduino.h>
 #include <FlowMeter.h>
-
+#include "secrets.h"
+#include <WiFiClientSecure.h>
+#include <MQTTClient.h>
+#include <ArduinoJson.h>
+#include "WiFi.h"
 
 // connect a flow meter to an interrupt pin (see notes on your Arduino model for pin numbers)
 FlowMeter *Meter1;
@@ -28,6 +32,8 @@ void Meter3ISR() {
     Meter3->count();
 }
 
+//The MQTT topics that this device should publish/subscribe
+
 void setup() {
   // prepare serial communication
     Serial.begin(115200);
@@ -36,10 +42,10 @@ void setup() {
     Meter1 = new FlowMeter(digitalPinToInterrupt(2), UncalibratedSensor, Meter1ISR, RISING);
     
     // do this setup step for every  FlowMeter and ISR you have defined, depending on how many you need
-    Meter2 = new FlowMeter(digitalPinToInterrupt(3), UncalibratedSensor, Meter2ISR, RISING);
+    Meter2 = new FlowMeter(digitalPinToInterrupt(4), UncalibratedSensor, Meter2ISR, RISING);
 
     // do this setup step for every  FlowMeter and ISR you have defined, depending on how many you need
-    Meter3 = new FlowMeter(digitalPinToInterrupt(4), UncalibratedSensor, Meter3ISR, RISING);
+    Meter3 = new FlowMeter(digitalPinToInterrupt(5), UncalibratedSensor, Meter3ISR, RISING);
 }
 
 void loop() {
