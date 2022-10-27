@@ -108,10 +108,10 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [PlatformIO](https://www.mongodb.com/) - IDE
-- [AWS IoT Core](https://expressjs.com/) - Cloud solution
-- [ESP32](https://vuejs.org/) - Development board / Microcontroller
-- [Arduino](https://nodejs.org/en/) - Development framework
+- [PlatformIO](https://platformio.org/) - IDE
+- [AWS IoT Core](https://aws.amazon.com/iot-core/) - IoT Cloud solution
+- [ESP32](https://www.espressif.com/en/products/socs/esp32) - Development board / Microcontroller
+- [Arduino](https://www.arduino.cc/) - Development framework
 
 ## ✍️ Authors <a name = "authors"></a>
 
