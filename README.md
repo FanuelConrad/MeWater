@@ -108,10 +108,10 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [PlatformIO](https://www.mongodb.com/) - IDE
+- [AWS IoT Core](https://expressjs.com/) - Cloud solution
+- [ESP32](https://vuejs.org/) - Development board / Microcontroller
+- [Arduino](https://nodejs.org/en/) - Development framework
 
 ## ✍️ Authors <a name = "authors"></a>
 
