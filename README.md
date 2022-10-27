@@ -120,7 +120,6 @@ Add additional notes about how to deploy this on a live system.
 - [@Edward Thandi] - Business team
 - [@Godwin Midiwo] - Business team
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
