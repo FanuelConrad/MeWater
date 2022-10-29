@@ -14,7 +14,7 @@ class LeakageDetection{
 
     void Calculate_normal_velocity();
     void Calculate_leak_velocity();
-    void Calculate_water_acceleration();
+    void Calculate_acceleration();
     void Calculate_location_of_leak();
 };
 
